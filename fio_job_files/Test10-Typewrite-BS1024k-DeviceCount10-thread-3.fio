@@ -9,6 +9,7 @@ direct=1
 group_reporting=1
 per_job_logs=0
 bs=1024k
+allow_mounted_write=1
 rw=write
 
 [TypeWrite-subtest1-blocksize1024k-threads15-sdaa]
