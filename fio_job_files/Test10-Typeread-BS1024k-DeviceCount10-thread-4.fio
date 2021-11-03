@@ -1,0 +1,122 @@
+[global]
+ioengine=libaio
+invalidate=1
+ramp_time=5
+iodepth=1
+runtime=180
+time_based
+direct=1
+group_reporting=1
+per_job_logs=0
+bs=1024k
+rw=read
+
+[TypeRead-subtest1-blocksize1024k-threads20-sdaa]
+ stonewall
+ numjobs=20
+ filename=/dev/sdaa
+[TypeRead-subtest1-blocksize1024k-threads20-sdab]
+ numjobs=20
+ filename=/dev/sdab
+[TypeRead-subtest1-blocksize1024k-threads20-sdac]
+ numjobs=20
+ filename=/dev/sdac
+[TypeRead-subtest1-blocksize1024k-threads20-sdad]
+ numjobs=20
+ filename=/dev/sdad
+[TypeRead-subtest1-blocksize1024k-threads20-sdae]
+ numjobs=20
+ filename=/dev/sdae
+[TypeRead-subtest1-blocksize1024k-threads20-sdaf]
+ numjobs=20
+ filename=/dev/sdaf
+[TypeRead-subtest1-blocksize1024k-threads20-sdag]
+ numjobs=20
+ filename=/dev/sdag
+[TypeRead-subtest1-blocksize1024k-threads20-sdah]
+ numjobs=20
+ filename=/dev/sdah
+[TypeRead-subtest1-blocksize1024k-threads20-sdai]
+ numjobs=20
+ filename=/dev/sdai
+[TypeRead-subtest1-blocksize1024k-threads20-sdaj]
+ numjobs=20
+ filename=/dev/sdaj
+[TypeRead-subtest1-blocksize1024k-threads20-sdak]
+ numjobs=20
+ filename=/dev/sdak
+[TypeRead-subtest1-blocksize1024k-threads20-sdal]
+ numjobs=20
+ filename=/dev/sdal
+[TypeRead-subtest1-blocksize1024k-threads20-sdc]
+ numjobs=20
+ filename=/dev/sdc
+[TypeRead-subtest1-blocksize1024k-threads20-sdd]
+ numjobs=20
+ filename=/dev/sdd
+[TypeRead-subtest1-blocksize1024k-threads20-sde]
+ numjobs=20
+ filename=/dev/sde
+[TypeRead-subtest1-blocksize1024k-threads20-sdf]
+ numjobs=20
+ filename=/dev/sdf
+[TypeRead-subtest1-blocksize1024k-threads20-sdg]
+ numjobs=20
+ filename=/dev/sdg
+[TypeRead-subtest1-blocksize1024k-threads20-sdh]
+ numjobs=20
+ filename=/dev/sdh
+[TypeRead-subtest1-blocksize1024k-threads20-sdi]
+ numjobs=20
+ filename=/dev/sdi
+[TypeRead-subtest1-blocksize1024k-threads20-sdj]
+ numjobs=20
+ filename=/dev/sdj
+[TypeRead-subtest1-blocksize1024k-threads20-sdk]
+ numjobs=20
+ filename=/dev/sdk
+[TypeRead-subtest1-blocksize1024k-threads20-sdl]
+ numjobs=20
+ filename=/dev/sdl
+[TypeRead-subtest1-blocksize1024k-threads20-sdm]
+ numjobs=20
+ filename=/dev/sdm
+[TypeRead-subtest1-blocksize1024k-threads20-sdn]
+ numjobs=20
+ filename=/dev/sdn
+[TypeRead-subtest1-blocksize1024k-threads20-sdo]
+ numjobs=20
+ filename=/dev/sdo
+[TypeRead-subtest1-blocksize1024k-threads20-sdp]
+ numjobs=20
+ filename=/dev/sdp
+[TypeRead-subtest1-blocksize1024k-threads20-sdq]
+ numjobs=20
+ filename=/dev/sdq
+[TypeRead-subtest1-blocksize1024k-threads20-sdr]
+ numjobs=20
+ filename=/dev/sdr
+[TypeRead-subtest1-blocksize1024k-threads20-sds]
+ numjobs=20
+ filename=/dev/sds
+[TypeRead-subtest1-blocksize1024k-threads20-sdt]
+ numjobs=20
+ filename=/dev/sdt
+[TypeRead-subtest1-blocksize1024k-threads20-sdu]
+ numjobs=20
+ filename=/dev/sdu
+[TypeRead-subtest1-blocksize1024k-threads20-sdv]
+ numjobs=20
+ filename=/dev/sdv
+[TypeRead-subtest1-blocksize1024k-threads20-sdw]
+ numjobs=20
+ filename=/dev/sdw
+[TypeRead-subtest1-blocksize1024k-threads20-sdx]
+ numjobs=20
+ filename=/dev/sdx
+[TypeRead-subtest1-blocksize1024k-threads20-sdy]
+ numjobs=20
+ filename=/dev/sdy
+[TypeRead-subtest1-blocksize1024k-threads20-sdz]
+ numjobs=20
+ filename=/dev/sdz

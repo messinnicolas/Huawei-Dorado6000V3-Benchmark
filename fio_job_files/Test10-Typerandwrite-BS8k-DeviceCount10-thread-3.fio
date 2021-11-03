@@ -1,0 +1,122 @@
+[global]
+ioengine=libaio
+invalidate=1
+ramp_time=5
+iodepth=1
+runtime=180
+time_based
+direct=1
+group_reporting=1
+per_job_logs=0
+bs=8k
+rw=randwrite
+
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdaa]
+ stonewall
+ numjobs=15
+ filename=/dev/sdaa
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdab]
+ numjobs=15
+ filename=/dev/sdab
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdac]
+ numjobs=15
+ filename=/dev/sdac
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdad]
+ numjobs=15
+ filename=/dev/sdad
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdae]
+ numjobs=15
+ filename=/dev/sdae
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdaf]
+ numjobs=15
+ filename=/dev/sdaf
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdag]
+ numjobs=15
+ filename=/dev/sdag
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdah]
+ numjobs=15
+ filename=/dev/sdah
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdai]
+ numjobs=15
+ filename=/dev/sdai
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdaj]
+ numjobs=15
+ filename=/dev/sdaj
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdak]
+ numjobs=15
+ filename=/dev/sdak
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdal]
+ numjobs=15
+ filename=/dev/sdal
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdc]
+ numjobs=15
+ filename=/dev/sdc
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdd]
+ numjobs=15
+ filename=/dev/sdd
+[TypeRandWrite-subtest1-blocksize8k-threads15-sde]
+ numjobs=15
+ filename=/dev/sde
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdf]
+ numjobs=15
+ filename=/dev/sdf
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdg]
+ numjobs=15
+ filename=/dev/sdg
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdh]
+ numjobs=15
+ filename=/dev/sdh
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdi]
+ numjobs=15
+ filename=/dev/sdi
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdj]
+ numjobs=15
+ filename=/dev/sdj
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdk]
+ numjobs=15
+ filename=/dev/sdk
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdl]
+ numjobs=15
+ filename=/dev/sdl
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdm]
+ numjobs=15
+ filename=/dev/sdm
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdn]
+ numjobs=15
+ filename=/dev/sdn
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdo]
+ numjobs=15
+ filename=/dev/sdo
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdp]
+ numjobs=15
+ filename=/dev/sdp
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdq]
+ numjobs=15
+ filename=/dev/sdq
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdr]
+ numjobs=15
+ filename=/dev/sdr
+[TypeRandWrite-subtest1-blocksize8k-threads15-sds]
+ numjobs=15
+ filename=/dev/sds
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdt]
+ numjobs=15
+ filename=/dev/sdt
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdu]
+ numjobs=15
+ filename=/dev/sdu
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdv]
+ numjobs=15
+ filename=/dev/sdv
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdw]
+ numjobs=15
+ filename=/dev/sdw
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdx]
+ numjobs=15
+ filename=/dev/sdx
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdy]
+ numjobs=15
+ filename=/dev/sdy
+[TypeRandWrite-subtest1-blocksize8k-threads15-sdz]
+ numjobs=15
+ filename=/dev/sdz

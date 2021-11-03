@@ -1,0 +1,122 @@
+[global]
+ioengine=libaio
+invalidate=1
+ramp_time=5
+iodepth=1
+runtime=180
+time_based
+direct=1
+group_reporting=1
+per_job_logs=0
+bs=1024k
+rw=read 
+
+[TypeRead-subtest1-blocksize1024k-threads40-sdaa]
+ stonewall
+ numjobs=40
+ filename=/dev/sdaa
+[TypeRead-subtest1-blocksize1024k-threads40-sdab]
+ numjobs=40
+ filename=/dev/sdab
+[TypeRead-subtest1-blocksize1024k-threads40-sdac]
+ numjobs=40
+ filename=/dev/sdac
+[TypeRead-subtest1-blocksize1024k-threads40-sdad]
+ numjobs=40
+ filename=/dev/sdad
+[TypeRead-subtest1-blocksize1024k-threads40-sdae]
+ numjobs=40
+ filename=/dev/sdae
+[TypeRead-subtest1-blocksize1024k-threads40-sdaf]
+ numjobs=40
+ filename=/dev/sdaf
+[TypeRead-subtest1-blocksize1024k-threads40-sdag]
+ numjobs=40
+ filename=/dev/sdag
+[TypeRead-subtest1-blocksize1024k-threads40-sdah]
+ numjobs=40
+ filename=/dev/sdah
+[TypeRead-subtest1-blocksize1024k-threads40-sdai]
+ numjobs=40
+ filename=/dev/sdai
+[TypeRead-subtest1-blocksize1024k-threads40-sdaj]
+ numjobs=40
+ filename=/dev/sdaj
+ [TypeRead-subtest1-blocksize1024k-threads40-sdak]
+ numjobs=40
+ filename=/dev/sdak
+ [TypeRead-subtest1-blocksize1024k-threads40-sdal]
+ numjobs=40
+ filename=/dev/sdal
+ [TypeRead-subtest1-blocksize1024k-threads40-sdc]
+ numjobs=40
+ filename=/dev/sdc
+ [TypeRead-subtest1-blocksize1024k-threads40-sdd]
+ numjobs=40
+ filename=/dev/sdd
+ [TypeRead-subtest1-blocksize1024k-threads40-sde]
+ numjobs=40
+ filename=/dev/sde
+ [TypeRead-subtest1-blocksize1024k-threads40-sdf]
+ numjobs=40
+ filename=/dev/sdf
+ [TypeRead-subtest1-blocksize1024k-threads40-sdg]
+ numjobs=40
+ filename=/dev/sdg
+ [TypeRead-subtest1-blocksize1024k-threads40-sdh]
+ numjobs=40
+ filename=/dev/sdh
+ [TypeRead-subtest1-blocksize1024k-threads40-sdi]
+ numjobs=40
+ filename=/dev/sdi
+ [TypeRead-subtest1-blocksize1024k-threads40-sdj]
+ numjobs=40
+ filename=/dev/sdj
+ [TypeRead-subtest1-blocksize1024k-threads40-sdk]
+ numjobs=40
+ filename=/dev/sdk
+ [TypeRead-subtest1-blocksize1024k-threads40-sdl]
+ numjobs=40
+ filename=/dev/sdl
+ [TypeRead-subtest1-blocksize1024k-threads40-sdm]
+ numjobs=40
+ filename=/dev/sdm
+ [TypeRead-subtest1-blocksize1024k-threads40-sdn]
+ numjobs=40
+ filename=/dev/sdn
+ [TypeRead-subtest1-blocksize1024k-threads40-sdo]
+ numjobs=40
+ filename=/dev/sdo
+ [TypeRead-subtest1-blocksize1024k-threads40-sdp]
+ numjobs=40
+ filename=/dev/sdp
+ [TypeRead-subtest1-blocksize1024k-threads40-sdq]
+ numjobs=40
+ filename=/dev/sdq
+ [TypeRead-subtest1-blocksize1024k-threads40-sdr]
+ numjobs=40
+ filename=/dev/sdr
+ [TypeRead-subtest1-blocksize1024k-threads40-sds]
+ numjobs=40
+ filename=/dev/sds
+ [TypeRead-subtest1-blocksize1024k-threads40-sdt]
+ numjobs=40
+ filename=/dev/sdt
+ [TypeRead-subtest1-blocksize1024k-threads40-sdu]
+ numjobs=40
+ filename=/dev/sdu
+ [TypeRead-subtest1-blocksize1024k-threads40-sdv]
+ numjobs=40
+ filename=/dev/sdv
+ [TypeRead-subtest1-blocksize1024k-threads40-sdw]
+ numjobs=40
+ filename=/dev/sdw
+ [TypeRead-subtest1-blocksize1024k-threads40-sdx]
+ numjobs=40
+ filename=/dev/sdx
+ [TypeRead-subtest1-blocksize1024k-threads40-sdy]
+ numjobs=40
+ filename=/dev/sdy
+ [TypeRead-subtest1-blocksize1024k-threads40-sdz]
+ numjobs=40
+ filename=/dev/sdz

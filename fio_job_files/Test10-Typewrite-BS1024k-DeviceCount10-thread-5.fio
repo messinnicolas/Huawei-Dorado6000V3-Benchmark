@@ -1,0 +1,122 @@
+[global]
+ioengine=libaio
+invalidate=1
+ramp_time=5
+iodepth=1
+runtime=180
+time_based
+direct=1
+group_reporting=1
+per_job_logs=0
+bs=1024k
+rw=write
+
+[TypeWrite-subtest1-blocksize1024k-threads30-sdaa]
+ stonewall
+ numjobs=30
+ filename=/dev/sdaa
+[TypeWrite-subtest1-blocksize1024k-threads30-sdab]
+ numjobs=30
+ filename=/dev/sdab
+[TypeWrite-subtest1-blocksize1024k-threads30-sdac]
+ numjobs=30
+ filename=/dev/sdac
+[TypeWrite-subtest1-blocksize1024k-threads30-sdad]
+ numjobs=30
+ filename=/dev/sdad
+[TypeWrite-subtest1-blocksize1024k-threads30-sdae]
+ numjobs=30
+ filename=/dev/sdae
+[TypeWrite-subtest1-blocksize1024k-threads30-sdaf]
+ numjobs=30
+ filename=/dev/sdaf
+[TypeWrite-subtest1-blocksize1024k-threads30-sdag]
+ numjobs=30
+ filename=/dev/sdag
+[TypeWrite-subtest1-blocksize1024k-threads30-sdah]
+ numjobs=30
+ filename=/dev/sdah
+[TypeWrite-subtest1-blocksize1024k-threads30-sdai]
+ numjobs=30
+ filename=/dev/sdai
+[TypeWrite-subtest1-blocksize1024k-threads30-sdaj]
+ numjobs=30
+ filename=/dev/sdaj
+[TypeWrite-subtest1-blocksize1024k-threads30-sdak]
+ numjobs=30
+ filename=/dev/sdak
+[TypeWrite-subtest1-blocksize1024k-threads30-sdal]
+ numjobs=30
+ filename=/dev/sdal
+[TypeWrite-subtest1-blocksize1024k-threads30-sdc]
+ numjobs=30
+ filename=/dev/sdc
+[TypeWrite-subtest1-blocksize1024k-threads30-sdd]
+ numjobs=30
+ filename=/dev/sdd
+[TypeWrite-subtest1-blocksize1024k-threads30-sde]
+ numjobs=30
+ filename=/dev/sde
+[TypeWrite-subtest1-blocksize1024k-threads30-sdf]
+ numjobs=30
+ filename=/dev/sdf
+[TypeWrite-subtest1-blocksize1024k-threads30-sdg]
+ numjobs=30
+ filename=/dev/sdg
+[TypeWrite-subtest1-blocksize1024k-threads30-sdh]
+ numjobs=30
+ filename=/dev/sdh
+[TypeWrite-subtest1-blocksize1024k-threads30-sdi]
+ numjobs=30
+ filename=/dev/sdi
+[TypeWrite-subtest1-blocksize1024k-threads30-sdj]
+ numjobs=30
+ filename=/dev/sdj
+[TypeWrite-subtest1-blocksize1024k-threads30-sdk]
+ numjobs=30
+ filename=/dev/sdk
+[TypeWrite-subtest1-blocksize1024k-threads30-sdl]
+ numjobs=30
+ filename=/dev/sdl
+[TypeWrite-subtest1-blocksize1024k-threads30-sdm]
+ numjobs=30
+ filename=/dev/sdm
+[TypeWrite-subtest1-blocksize1024k-threads30-sdn]
+ numjobs=30
+ filename=/dev/sdn
+[TypeWrite-subtest1-blocksize1024k-threads30-sdo]
+ numjobs=30
+ filename=/dev/sdo
+[TypeWrite-subtest1-blocksize1024k-threads30-sdp]
+ numjobs=30
+ filename=/dev/sdp
+[TypeWrite-subtest1-blocksize1024k-threads30-sdq]
+ numjobs=30
+ filename=/dev/sdq
+[TypeWrite-subtest1-blocksize1024k-threads30-sdr]
+ numjobs=30
+ filename=/dev/sdr
+[TypeWrite-subtest1-blocksize1024k-threads30-sds]
+ numjobs=30
+ filename=/dev/sds
+[TypeWrite-subtest1-blocksize1024k-threads30-sdt]
+ numjobs=30
+ filename=/dev/sdt
+[TypeWrite-subtest1-blocksize1024k-threads30-sdu]
+ numjobs=30
+ filename=/dev/sdu
+[TypeWrite-subtest1-blocksize1024k-threads30-sdv]
+ numjobs=30
+ filename=/dev/sdv
+[TypeWrite-subtest1-blocksize1024k-threads30-sdw]
+ numjobs=30
+ filename=/dev/sdw
+[TypeWrite-subtest1-blocksize1024k-threads30-sdx]
+ numjobs=30
+ filename=/dev/sdx
+[TypeWrite-subtest1-blocksize1024k-threads30-sdy]
+ numjobs=30
+ filename=/dev/sdy
+[TypeWrite-subtest1-blocksize1024k-threads30-sdz]
+ numjobs=30
+ filename=/dev/sdz
